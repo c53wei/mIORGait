@@ -1,0 +1,24 @@
+Name,Ref.,Location,Static (23),Dyn. (23)
+L_HEAD,,Just above the ear,X,X
+R_HEAD,,Just above the ear,X,X
+SGL,SGL,Glabella,X,X
+SJN,SJN,Sternum - Jugular Notch,X,X
+SXS,SXS,Sternum - Xiphisternal joint,X,X
+CV7,CV7,7th Cervical Vertebrae,X,X
+TV2,TV2,2nd Thoracic Vertebrae,X,X
+MAI,MAI,Midpoint between inferior angles of most caudal points of the scapulae,X,X
+LV1,LV1,1st Lumbar Vertebrae,X,X
+LV3,LV3,3rd Lumbar Vertebrae,X,X
+LV5,LV5,5th Lumbar Vertebrae,X,X
+L_SAE,SAE,Scapula - Acromial Edge,X,X
+L_HUM,,,X,X
+L_HLE,HLE,Humerus - Lateral Epicondyle,X,X
+L_RSP,RSP,Radius - Styloid Process,X,X
+L_USP,UPS,Ulna - Styloid Process,X,X
+L_HM2,HM2,Basis of Forefinger,X,X
+R_SAE,SAE,Scapula - Acromial Edge,X,X
+R_HUM,,,X,X
+R_HLE,HLE,Humerus - Lateral Epicondyle,X,X
+R_RSP,RSP,Radius - Styloid Process,X,X
+R_USP,USP,Ulna - Styloid Process,X,X
+R_HM2,HM2,Basis of Forefinger,X,X
