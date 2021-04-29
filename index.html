@@ -9,38 +9,31 @@
   <meta name="author" content="">
   <head>
     <meta charset="utf-8">
-    <style>
-        
-
-        td {
-            border: 1px black solid;
-            padding: 5px;
-        }
-    </style>
 </head>
 
   <title>Modifiable IOR Gait Template</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Overriding certain components -->
+  <link rel="stylesheet" href="css/style.css">
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 </head>
 
 <body>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">IOR Marker Model</a>
+      <a class="navbar-brand" href="index.html">IOR Marker Model</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="index.html">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -54,21 +47,23 @@
   </nav>
 
   <!-- Page Content -->
-  <br/>
-  <div class="container">
-    <!-- Left justified anatomy image-->
+  <br>
+  <div class="split left">
+    <div class="container">
+      <h5>Anterior</h5>
+    </div>
+    
+    <img src="img/full_body_front.jpg" class="unmarked-figure" alt="Anterior">
+
     <div class="row">
-      <div class="column">
-        <h5>Anterior</h5>
-        <img src="img/full_body_front.jpg" class="unmarked-figure" alt="Anterior">
-      </div>
-      <div class="column">
-        <h5>Posterior</h5>
-        <img src="img/full_body_back.jpg" class="unmarked-figure" alt="Anterior">
-      </div>
-      <!-- Marker table -->
-      <div class="column">
-        <h4>Table of Markers</h4>
+      <h5>Posterior</h5>
+      <img src="img/full_body_back.jpg" class="unmarked-figure" alt="Anterior">
+    </div>
+  </div>
+  
+  <div class="split right">
+    <div class="centered">
+      <h4>Table of Markers</h4>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script type="text/javascript"charset="utf-8">
             d3.text("data/standard_upper_body_markers.csv", function(data) {
@@ -88,9 +83,12 @@
             });
         </script>
         </script>
-      </div>
     </div>
   </div>
+
+  <!-- Information Sources -->
+  <a href="http://qfl.qualisys.com/#!/project/qcs" target="_blank">Qualisys</a>
+  
   
 </body>
 
