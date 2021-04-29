@@ -22,3 +22,30 @@ R_HLE,HLE,Humerus - Lateral Epicondyle,X,X
 R_RSP,RSP,Radius - Styloid Process,X,X
 R_USP,USP,Ulna - Styloid Process,X,X
 R_HM2,HM2,Basis of Forefinger,X,X
+Name,Ref.,Location,Static (26),Dyn. (20)
+L_IAS,IAS,Anterior superior iliac spine,X,X
+L_IPS,IPS,Posterior superior iliac spine,X,X
+R_IPS,IPS,Posterior superior iliac spine,X,X
+R_IAS,IAS,Anterior superior iliac spine,X,X
+L_FTC,FTC,"Lateral side of greater trochanter, 1/3 from proximal end",X,X
+L_FLE,FLE,Femur lateral epicondyle,X,X
+L_FME,FME,Femur medial epicondyle,X,
+L_FAX,FAX,Proximal tip of the head of the fibula,X,X
+L_TTC,TTC,Most anterior border of the tibial tuberosity,X,X
+L_FAL,FAL,Lateral prominence of the lateral malleolus,X,X
+L_TAM,TAM,Medial prominence of the medial malleolus,X,
+L_FCC,FCC,Aspect of the Achilles tendon insertion on the calcaneus,X,X
+L_FM1,FM1,Dorsal margin of the first metatarsal head,X,X
+L_FM2,FM2,Dorsal margin of the second metatarsal head,X,
+L_FM5,FM5,Dorsal margin of the fifth metatarsal head,X,X
+R_FTC,FTC,"Lateral side of greater trochanter, 1/3 from proximal end",X,X
+R_FLE,FLE,Femur lateral epicondyle,X,X
+R_FME,FME,Femur medial epicondyle,X,
+R_FAX,FAX,Proximal tip of the head of the fibula,X,X
+R_TTC,TTC,Most anterior border of the tibial tuberosity,X,X
+R_FAL,FAL,Lateral prominence of the lateral malleolus,X,X
+R_TAM,TAM,Medial prominence of the medial malleolus,X,
+R_FCC,FCC,Aspect of the Achilles tendon insertion on the calcaneus,X,X
+R_FM1,FM1,Dorsal margin of the first metatarsal head,X,X
+R_FM2,FM2,Dorsal margin of the second metatarsal head,X,
+R_FM5,FM5,Dorsal margin of the fifth metatarsal head,X,X
