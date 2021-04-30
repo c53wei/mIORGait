@@ -1,6 +1,6 @@
 # mIORGait
 
-Welcome to a trial run in website creation! This is a side-project inspired by an undergraduate research assitantship I am currently completing with
+Welcome to a trial run in website creation! This is a project inspired by an undergraduate research assitantship I am currently completing with
 one of University of Waterloo's [humanoid robotics labs](https://uwaterloo.ca/cerc-human-centred-robotics-machine-intelligence/)🤖
 
 ## About
