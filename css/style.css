@@ -45,21 +45,6 @@ td {
   padding-right: 7%
 }
 
-#footer{
-  width:100%;
-  height:65px;
-  position:fixed;
-  bottom:0;
-  background-color:#06F;
-  }
-
-#content{
-background-color:#111;
-width:100%;
-height:100%;
-position:absolute;
-}
-
 #columns-container {
   position:relative;
   height: 100%;
